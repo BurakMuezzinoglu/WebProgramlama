@@ -1,0 +1,5 @@
+C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.DataAccess\bin\Debug\Proje.DataAccess.dll
+C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.DataAccess\bin\Debug\Proje.DataAccess.pdb
+C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.DataAccess\obj\Debug\Proje.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.DataAccess\obj\Debug\Proje.DataAccess.dll
+C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.DataAccess\obj\Debug\Proje.DataAccess.pdb

@@ -1,0 +1,5 @@
+C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.Business\bin\Debug\Proje.Business.dll
+C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.Business\bin\Debug\Proje.Business.pdb
+C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.Business\obj\Debug\Proje.Business.csprojResolveAssemblyReference.cache
+C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.Business\obj\Debug\Proje.Business.dll
+C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.Business\obj\Debug\Proje.Business.pdb
