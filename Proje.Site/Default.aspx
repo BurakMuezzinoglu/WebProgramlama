@@ -7,7 +7,7 @@
     <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Groovin Bootstrap Template - Index</title>
+  <title>ARTMAKER Stock Images</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -47,13 +47,13 @@
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Groovin</a></h1>
+      <h1 class="logo"><a href="index.html">ArtMaker</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
        <a href="index.html" class="logo"><img src="/Template/assets/img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <!--<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
@@ -76,8 +76,8 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>-->
+          <li><a class="getstarted scrollto" href="#about">Sign In</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -102,9 +102,9 @@
                     <asp:Label ID="LabelSlider1" runat="server" Text="Label"></asp:Label></h2>
                 <p class="animate__animated animate__fadeInUp">
                     <asp:Label ID="LabelDesc1" runat="server" Text="Label"></asp:Label></p>
-                <div>
+                <!--<div>
                   <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-                </div>
+                </div>-->
               </div>
             </div>
           </div>
@@ -117,9 +117,9 @@
                     <asp:Label ID="LabelSlider2" runat="server" Text="Label"></asp:Label></h2>
                 <p class="animate__animated animate__fadeInUp">
                     <asp:Label ID="LabelDesc2" runat="server" Text="Label"></asp:Label></p>
-                <div>
+                <!--<div>
                   <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-                </div>
+                </div>-->
               </div>
             </div>
           </div>
@@ -133,9 +133,9 @@
                     <asp:Label ID="LabelSlider3" runat="server" Text="Label"></asp:Label></h2>
                 <p class="animate__animated animate__fadeInUp">
                     <asp:Label ID="LabelDesc3" runat="server" Text="Label"></asp:Label></p>
-                <div>
+                <!--<div>
                   <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-                </div>
+                </div>-->
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <!--<section id="about" class="about">
       <div class="container">
 
         <div class="row no-gutters">
@@ -198,7 +198,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+    <!--<section id="counts" class="counts">
       <div class="container">
 
         <div class="row no-gutters">
@@ -241,7 +241,7 @@
     </section><!-- End Counts Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
+    <!--<section id="clients" class="clients section-bg">
       <div class="container">
 
         <div class="row">
@@ -276,7 +276,7 @@
     </section><!-- End Clients Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!--<section id="services" class="services">
       <div class="container">
 
         <div class="section-title">
@@ -321,7 +321,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
+    <!--<section id="why-us" class="why-us">
       <div class="container">
 
         <div class="section-title">
@@ -361,7 +361,7 @@
     </section><!-- End Why Us Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <!--<section id="portfolio" class="portfolio">
       <div class="container">
 
         <div class="section-title">
@@ -514,7 +514,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+    <!--<section id="team" class="team">
       <div class="container">
 
         <div class="section-title">
@@ -602,7 +602,7 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <!--<section id="pricing" class="pricing">
       <div class="container">
 
         <div class="section-title">
@@ -669,7 +669,7 @@
     </section><!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
+    <!--<section id="faq" class="faq section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -731,7 +731,7 @@
     </section><!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!--<section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
@@ -805,12 +805,12 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Groovin</h3>
+              <h3>ArtMaker</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                Burak Muezzinoglu <br>
+                Istanbul,Turkey<br><br>
+                <strong>Phone:</strong> +90 541 947 0680<br>
+                <strong>Email:</strong> burakmuzzy@gmail.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -822,7 +822,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <!--<div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
@@ -842,16 +842,16 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
-          </div>
+          </div>-->
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <!--<div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
 
-          </div>
+          </div>-->
 
         </div>
       </div>
@@ -859,7 +859,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Groovin</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>ArtMaker</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
