@@ -3,3 +3,21 @@ C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaPr
 C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.Business\obj\Debug\Proje.Business.csprojResolveAssemblyReference.cache
 C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.Business\obj\Debug\Proje.Business.dll
 C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.Business\obj\Debug\Proje.Business.pdb
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\Proje.Business.dll
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\Proje.Business.pdb
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\obj\Debug\Proje.Business.csprojAssemblyReference.cache
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\obj\Debug\Proje.Business.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\obj\Debug\Proje.Business.dll
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\obj\Debug\Proje.Business.pdb
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\EntityFramework.dll
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\Proje.DataAccess.dll
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\Proje.DataAccess.pdb
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\Proje.DataAccess.dll.config
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\EntityFramework.xml
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\obj\Debug\Proje.Business.csproj.CopyComplete
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\Proje.Business.dll.config
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\Proje.Site.dll
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\Proje.Site.pdb
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.Business\bin\Debug\Proje.Site.dll.config

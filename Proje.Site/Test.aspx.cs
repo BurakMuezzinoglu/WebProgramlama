@@ -13,5 +13,23 @@ namespace Proje.Site
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            ListItem deger = new ListItem();
+            deger.Text = TextBox1.Text;
+            deger.Value = new Random().Next(0,50).ToString();
+            drp_liste.Items.Add(deger);
+        }
+
+        protected void drp_liste_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Label1.Text = "Seçilen Value Değeri:" + drp_liste.SelectedValue + " -Seçilen Text Değeri:" + drp_liste.SelectedItem.Text;
+        }
+
+        protected void img_button_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
     }
 }

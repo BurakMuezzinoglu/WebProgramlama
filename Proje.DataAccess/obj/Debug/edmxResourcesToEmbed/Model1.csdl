@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PortfolyoSiteDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Tbl_Giris">
+    <Key>
+      <PropertyRef Name="GirisEmail" />
+    </Key>
+    <Property Name="GirisEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="GirisSifre" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Tbl_Profil" Relationship="Self.FK_Tbl_Profil_Tbl_Giris" FromRole="Tbl_Giris" ToRole="Tbl_Profil" />
+    <NavigationProperty Name="Tbl_Uyelik" Relationship="Self.FK_Tbl_Uyelik_Tbl_Giris" FromRole="Tbl_Giris" ToRole="Tbl_Uyelik" />
+  </EntityType>
+  <EntityType Name="Tbl_Gorsel">
+    <Key>
+      <PropertyRef Name="Gorselid" />
+    </Key>
+    <Property Name="Gorselid" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GorselAd" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Gorselİcerik" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="GorselKategori" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="GorselAciklama" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="GorselEklenmeTarih" Type="DateTime" Precision="0" />
+    <Property Name="Kategoriid" Type="Int16" />
+    <NavigationProperty Name="Tbl_Kategori" Relationship="Self.FK_Tbl_Gorsel_Tbl_Kategori" FromRole="Tbl_Gorsel" ToRole="Tbl_Kategori" />
+    <NavigationProperty Name="Tbl_GorselOneri" Relationship="Self.FK_Tbl_GorselOneri_Tbl_Gorsel" FromRole="Tbl_Gorsel" ToRole="Tbl_GorselOneri" />
+  </EntityType>
+  <EntityType Name="Tbl_GorselOneri">
+    <Key>
+      <PropertyRef Name="GorselOnerid" />
+    </Key>
+    <Property Name="GorselOnerid" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GorselOnerAd" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="GorselOnerİcerik" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="GorselOnerKategori" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="GorselOnerKullanici" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GorselOnerMail" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="GorselGeciciid" Type="Int16" />
+    <NavigationProperty Name="Tbl_Gorsel" Relationship="Self.FK_Tbl_GorselOneri_Tbl_Gorsel" FromRole="Tbl_GorselOneri" ToRole="Tbl_Gorsel" />
+    <NavigationProperty Name="Tbl_Profil" Relationship="Self.FK_Tbl_GorselOneri_Tbl_Profil" FromRole="Tbl_GorselOneri" ToRole="Tbl_Profil" />
+  </EntityType>
+  <EntityType Name="Tbl_Kategori">
+    <Key>
+      <PropertyRef Name="Kategoriid" />
+    </Key>
+    <Property Name="Kategoriid" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KategoriAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="KategoriAdet" Type="Int16" />
+    <Property Name="KategoriResim" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Tbl_Gorsel" Relationship="Self.FK_Tbl_Gorsel_Tbl_Kategori" FromRole="Tbl_Kategori" ToRole="Tbl_Gorsel" />
+  </EntityType>
+  <EntityType Name="Tbl_Profil">
+    <Key>
+      <PropertyRef Name="Profilid" />
+    </Key>
+    <Property Name="Profilid" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProfilAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProfilNickname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ProfilEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProfilGorselid" Type="Int16" />
+    <NavigationProperty Name="Tbl_Giris" Relationship="Self.FK_Tbl_Profil_Tbl_Giris" FromRole="Tbl_Profil" ToRole="Tbl_Giris" />
+    <NavigationProperty Name="Tbl_GorselOneri" Relationship="Self.FK_Tbl_GorselOneri_Tbl_Profil" FromRole="Tbl_Profil" ToRole="Tbl_GorselOneri" />
+  </EntityType>
+  <EntityType Name="Tbl_Uyelik">
+    <Key>
+      <PropertyRef Name="Kullaniciid" />
+    </Key>
+    <Property Name="Kullaniciid" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KullaniciAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="KullaniciSoyad" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="KullaniciNickname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="KullaniciEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="KullaniciSifre" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="KullaniciDTarih" Type="DateTime" Precision="0" />
+    <Property Name="KullaniciTel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Tbl_Giris" Relationship="Self.FK_Tbl_Uyelik_Tbl_Giris" FromRole="Tbl_Uyelik" ToRole="Tbl_Giris" />
+  </EntityType>
+  <Association Name="FK_Tbl_Profil_Tbl_Giris">
+    <End Role="Tbl_Giris" Type="Self.Tbl_Giris" Multiplicity="0..1" />
+    <End Role="Tbl_Profil" Type="Self.Tbl_Profil" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_Giris">
+        <PropertyRef Name="GirisEmail" />
+      </Principal>
+      <Dependent Role="Tbl_Profil">
+        <PropertyRef Name="ProfilEmail" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tbl_Uyelik_Tbl_Giris">
+    <End Role="Tbl_Giris" Type="Self.Tbl_Giris" Multiplicity="0..1" />
+    <End Role="Tbl_Uyelik" Type="Self.Tbl_Uyelik" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_Giris">
+        <PropertyRef Name="GirisEmail" />
+      </Principal>
+      <Dependent Role="Tbl_Uyelik">
+        <PropertyRef Name="KullaniciEmail" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tbl_Gorsel_Tbl_Kategori">
+    <End Role="Tbl_Kategori" Type="Self.Tbl_Kategori" Multiplicity="0..1" />
+    <End Role="Tbl_Gorsel" Type="Self.Tbl_Gorsel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_Kategori">
+        <PropertyRef Name="Kategoriid" />
+      </Principal>
+      <Dependent Role="Tbl_Gorsel">
+        <PropertyRef Name="Kategoriid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tbl_GorselOneri_Tbl_Gorsel">
+    <End Role="Tbl_Gorsel" Type="Self.Tbl_Gorsel" Multiplicity="0..1" />
+    <End Role="Tbl_GorselOneri" Type="Self.Tbl_GorselOneri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_Gorsel">
+        <PropertyRef Name="Gorselid" />
+      </Principal>
+      <Dependent Role="Tbl_GorselOneri">
+        <PropertyRef Name="GorselGeciciid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tbl_GorselOneri_Tbl_Profil">
+    <End Role="Tbl_Profil" Type="Self.Tbl_Profil" Multiplicity="0..1" />
+    <End Role="Tbl_GorselOneri" Type="Self.Tbl_GorselOneri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_Profil">
+        <PropertyRef Name="Profilid" />
+      </Principal>
+      <Dependent Role="Tbl_GorselOneri">
+        <PropertyRef Name="GorselGeciciid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PortfolyoSiteDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tbl_Giris" EntityType="Self.Tbl_Giris" />
+    <EntitySet Name="Tbl_Gorsel" EntityType="Self.Tbl_Gorsel" />
+    <EntitySet Name="Tbl_GorselOneri" EntityType="Self.Tbl_GorselOneri" />
+    <EntitySet Name="Tbl_Kategori" EntityType="Self.Tbl_Kategori" />
+    <EntitySet Name="Tbl_Profil" EntityType="Self.Tbl_Profil" />
+    <EntitySet Name="Tbl_Uyelik" EntityType="Self.Tbl_Uyelik" />
+    <AssociationSet Name="FK_Tbl_Profil_Tbl_Giris" Association="Self.FK_Tbl_Profil_Tbl_Giris">
+      <End Role="Tbl_Giris" EntitySet="Tbl_Giris" />
+      <End Role="Tbl_Profil" EntitySet="Tbl_Profil" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tbl_Uyelik_Tbl_Giris" Association="Self.FK_Tbl_Uyelik_Tbl_Giris">
+      <End Role="Tbl_Giris" EntitySet="Tbl_Giris" />
+      <End Role="Tbl_Uyelik" EntitySet="Tbl_Uyelik" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tbl_Gorsel_Tbl_Kategori" Association="Self.FK_Tbl_Gorsel_Tbl_Kategori">
+      <End Role="Tbl_Kategori" EntitySet="Tbl_Kategori" />
+      <End Role="Tbl_Gorsel" EntitySet="Tbl_Gorsel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tbl_GorselOneri_Tbl_Gorsel" Association="Self.FK_Tbl_GorselOneri_Tbl_Gorsel">
+      <End Role="Tbl_Gorsel" EntitySet="Tbl_Gorsel" />
+      <End Role="Tbl_GorselOneri" EntitySet="Tbl_GorselOneri" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tbl_GorselOneri_Tbl_Profil" Association="Self.FK_Tbl_GorselOneri_Tbl_Profil">
+      <End Role="Tbl_Profil" EntitySet="Tbl_Profil" />
+      <End Role="Tbl_GorselOneri" EntitySet="Tbl_GorselOneri" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Proje.Site"
   ],
-  "SelectedNode": "\\Proje.Site",
+  "SelectedNode": "\\Proje.Site\\Web.Debug.config",
   "PreviewInSolutionExplorer": false
 }

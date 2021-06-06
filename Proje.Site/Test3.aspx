@@ -13,6 +13,14 @@
             <asp:UpdatePanel ID="UpdatePanel1" runat="server" ChildrenAsTriggers="false" UpdateMode="Conditional">
                 <ContentTemplate>
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:DropDownList ID="DropDownList1" runat="server">
+                        <asp:ListItem>eqwewq</asp:ListItem>
+                        <asp:ListItem>sadasdsa</asp:ListItem>
+                        <asp:ListItem>gdfgdf</asp:ListItem>
+                        <asp:ListItem>qwefsda</asp:ListItem>
+                        <asp:ListItem Value="sd">fsdfsd</asp:ListItem>
+                        <asp:ListItem>fsdfsdfa</asp:ListItem>
+                    </asp:DropDownList>
 
                     
 
@@ -27,14 +35,7 @@
 
             </asp:UpdatePanel>
         </div>
-        <asp:DropDownList ID="DropDownList1" runat="server">
-                        <asp:ListItem>eqwewq</asp:ListItem>
-                        <asp:ListItem>sadasdsa</asp:ListItem>
-                        <asp:ListItem>gdfgdf</asp:ListItem>
-                        <asp:ListItem>qwefsda</asp:ListItem>
-                        <asp:ListItem Value="sd">fsdfsd</asp:ListItem>
-                        <asp:ListItem>fsdfsdfa</asp:ListItem>
-                    </asp:DropDownList>
+        
     </form>
 </body>
 </html>

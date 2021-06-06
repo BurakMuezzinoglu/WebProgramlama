@@ -3,3 +3,15 @@ C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaPr
 C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.DataAccess\obj\Debug\Proje.DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.DataAccess\obj\Debug\Proje.DataAccess.dll
 C:\Users\Burak\Desktop\Dersler\dönem2\Web Tabanlı Programlama\WebProgramlamaProje\WebProgramlama\Proje.DataAccess\obj\Debug\Proje.DataAccess.pdb
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.DataAccess\bin\Debug\Proje.DataAccess.dll
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.DataAccess\bin\Debug\Proje.DataAccess.pdb
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.DataAccess\obj\Debug\Proje.DataAccess.csprojAssemblyReference.cache
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.DataAccess\obj\Debug\Proje.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.DataAccess\obj\Debug\Proje.DataAccess.dll
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.DataAccess\obj\Debug\Proje.DataAccess.pdb
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.DataAccess\bin\Debug\Proje.DataAccess.dll.config
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Burak\Source\Repos\WebProgramlama\Proje.DataAccess\obj\Debug\Proje.DataAccess.csproj.CopyComplete

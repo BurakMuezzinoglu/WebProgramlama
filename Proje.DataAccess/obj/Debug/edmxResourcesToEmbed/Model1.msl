@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PortfolyoSiteDBModelStoreContainer" CdmEntityContainer="PortfolyoSiteDBEntities">
+    <EntitySetMapping Name="Tbl_Giris">
+      <EntityTypeMapping TypeName="PortfolyoSiteDBModel.Tbl_Giris">
+        <MappingFragment StoreEntitySet="Tbl_Giris">
+          <ScalarProperty Name="GirisEmail" ColumnName="GirisEmail" />
+          <ScalarProperty Name="GirisSifre" ColumnName="GirisSifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Gorsel">
+      <EntityTypeMapping TypeName="PortfolyoSiteDBModel.Tbl_Gorsel">
+        <MappingFragment StoreEntitySet="Tbl_Gorsel">
+          <ScalarProperty Name="Gorselid" ColumnName="Gorselid" />
+          <ScalarProperty Name="GorselAd" ColumnName="GorselAd" />
+          <ScalarProperty Name="Gorselİcerik" ColumnName="Gorselİcerik" />
+          <ScalarProperty Name="GorselKategori" ColumnName="GorselKategori" />
+          <ScalarProperty Name="GorselAciklama" ColumnName="GorselAciklama" />
+          <ScalarProperty Name="GorselEklenmeTarih" ColumnName="GorselEklenmeTarih" />
+          <ScalarProperty Name="Kategoriid" ColumnName="Kategoriid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_GorselOneri">
+      <EntityTypeMapping TypeName="PortfolyoSiteDBModel.Tbl_GorselOneri">
+        <MappingFragment StoreEntitySet="Tbl_GorselOneri">
+          <ScalarProperty Name="GorselOnerid" ColumnName="GorselOnerid" />
+          <ScalarProperty Name="GorselOnerAd" ColumnName="GorselOnerAd" />
+          <ScalarProperty Name="GorselOnerİcerik" ColumnName="GorselOnerİcerik" />
+          <ScalarProperty Name="GorselOnerKategori" ColumnName="GorselOnerKategori" />
+          <ScalarProperty Name="GorselOnerKullanici" ColumnName="GorselOnerKullanici" />
+          <ScalarProperty Name="GorselOnerMail" ColumnName="GorselOnerMail" />
+          <ScalarProperty Name="GorselGeciciid" ColumnName="GorselGeciciid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Kategori">
+      <EntityTypeMapping TypeName="PortfolyoSiteDBModel.Tbl_Kategori">
+        <MappingFragment StoreEntitySet="Tbl_Kategori">
+          <ScalarProperty Name="Kategoriid" ColumnName="Kategoriid" />
+          <ScalarProperty Name="KategoriAd" ColumnName="KategoriAd" />
+          <ScalarProperty Name="KategoriAdet" ColumnName="KategoriAdet" />
+          <ScalarProperty Name="KategoriResim" ColumnName="KategoriResim" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Profil">
+      <EntityTypeMapping TypeName="PortfolyoSiteDBModel.Tbl_Profil">
+        <MappingFragment StoreEntitySet="Tbl_Profil">
+          <ScalarProperty Name="Profilid" ColumnName="Profilid" />
+          <ScalarProperty Name="ProfilAd" ColumnName="ProfilAd" />
+          <ScalarProperty Name="ProfilNickname" ColumnName="ProfilNickname" />
+          <ScalarProperty Name="ProfilEmail" ColumnName="ProfilEmail" />
+          <ScalarProperty Name="ProfilGorselid" ColumnName="ProfilGorselid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Uyelik">
+      <EntityTypeMapping TypeName="PortfolyoSiteDBModel.Tbl_Uyelik">
+        <MappingFragment StoreEntitySet="Tbl_Uyelik">
+          <ScalarProperty Name="Kullaniciid" ColumnName="Kullaniciid" />
+          <ScalarProperty Name="KullaniciAd" ColumnName="KullaniciAd" />
+          <ScalarProperty Name="KullaniciSoyad" ColumnName="KullaniciSoyad" />
+          <ScalarProperty Name="KullaniciNickname" ColumnName="KullaniciNickname" />
+          <ScalarProperty Name="KullaniciEmail" ColumnName="KullaniciEmail" />
+          <ScalarProperty Name="KullaniciSifre" ColumnName="KullaniciSifre" />
+          <ScalarProperty Name="KullaniciDTarih" ColumnName="KullaniciDTarih" />
+          <ScalarProperty Name="KullaniciTel" ColumnName="KullaniciTel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

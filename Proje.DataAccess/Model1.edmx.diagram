@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="922ca0bdca254410999a30ac4fc01521" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="PortfolyoSiteDBModel.Tbl_Giris" Width="1.5" PointX="5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortfolyoSiteDBModel.Tbl_Gorsel" Width="1.5" PointX="12.375" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortfolyoSiteDBModel.Tbl_GorselOneri" Width="1.5" PointX="10.875" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortfolyoSiteDBModel.Tbl_Kategori" Width="1.5" PointX="6.375" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortfolyoSiteDBModel.Tbl_Profil" Width="1.5" PointX="7.625" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortfolyoSiteDBModel.Tbl_Uyelik" Width="1.5" PointX="8.625" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="PortfolyoSiteDBModel.FK_Tbl_Profil_Tbl_Giris" ManuallyRouted="false" />
+        <AssociationConnector Association="PortfolyoSiteDBModel.FK_Tbl_Uyelik_Tbl_Giris" ManuallyRouted="false" />
+        <AssociationConnector Association="PortfolyoSiteDBModel.FK_Tbl_Gorsel_Tbl_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="PortfolyoSiteDBModel.FK_Tbl_GorselOneri_Tbl_Gorsel" ManuallyRouted="false" />
+        <AssociationConnector Association="PortfolyoSiteDBModel.FK_Tbl_GorselOneri_Tbl_Profil" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
